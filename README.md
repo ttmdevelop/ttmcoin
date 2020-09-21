@@ -23,7 +23,7 @@ rpc接口说明：
 
 
 签名算法
-[ECDSA](#https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)
+[ECDSA]: https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
 
 
 
