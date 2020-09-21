@@ -34,6 +34,7 @@ rpc接口说明：
 3.取version+public+checksum的字节数组的前21个字节进行两次256哈希运算，取结果值的前4个字节，与第二步中的checksum值进行比较，如果一致则地址有效。
 
 TTM地址正则匹配
+
 if (!(preg_match('/^(1|3)[a-zA-Z\d]{24,33}$/', $address) && preg_match('/^[^0OlI]{25,34}$/', $address))) {
     return false; //满足if代表地址不合法
 }
