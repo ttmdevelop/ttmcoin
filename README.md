@@ -1,0 +1,2 @@
+# ttmcoin
+mainnet protocol implementation
