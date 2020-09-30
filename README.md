@@ -10,9 +10,20 @@ mainnet protocol implementation
 
 节点部署参考：
 
+安装所依赖的库:
+
+以ubuntu 16 04 为例
+
+sudo apt-get update
+
+sudo apt-get install build-essential libtool autotools-dev autoconf automake libssl-dev libboost-all-dev libdb-dev libdb++-dev pkg-config libevent-dev git-core
+
 配置文件：
 参考 [ttmcoin.conf](#ttmcoin.conf)
 
+运行参考
+
+./bin/ttmcoind -datadir=~/node -conf=~/node/ttmcoin.conf -checkpoints=0
 
 rpc端口：默认 18332 ，可以在配置文件指定
 
